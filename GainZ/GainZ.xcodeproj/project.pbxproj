@@ -7,65 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16C996962D76AA40004630F8 /* GainZApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C996952D76AA40004630F8 /* GainZApp.swift */; };
-		16C996982D76AA40004630F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C996972D76AA40004630F8 /* ContentView.swift */; };
-		16C9969A2D76AA44004630F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16C996992D76AA44004630F8 /* Assets.xcassets */; };
-		16C9969D2D76AA44004630F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16C9969C2D76AA44004630F8 /* Preview Assets.xcassets */; };
-		16C9969F2D76AA44004630F8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C9969E2D76AA44004630F8 /* Persistence.swift */; };
-		16C996A22D76AA44004630F8 /* GainZ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16C996A02D76AA44004630F8 /* GainZ.xcdatamodeld */; };
-		16C996AC2D76AA45004630F8 /* GainZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C996AB2D76AA45004630F8 /* GainZTests.swift */; };
-		16C996B62D76AA45004630F8 /* GainZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C996B52D76AA45004630F8 /* GainZUITests.swift */; };
-		16C996B82D76AA45004630F8 /* GainZUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C996B72D76AA45004630F8 /* GainZUITestsLaunchTests.swift */; };
+		160960A82D890E4B0086F495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160960A72D890E4B0086F495 /* AppDelegate.swift */; };
+		160960AA2D890E4B0086F495 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160960A92D890E4B0086F495 /* SceneDelegate.swift */; };
+		160960AC2D890E4B0086F495 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160960AB2D890E4B0086F495 /* ViewController.swift */; };
+		160960AF2D890E4B0086F495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160960AD2D890E4B0086F495 /* Main.storyboard */; };
+		160960B22D890E4B0086F495 /* GainZ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 160960B02D890E4B0086F495 /* GainZ.xcdatamodeld */; };
+		160960B42D890E4E0086F495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160960B32D890E4E0086F495 /* Assets.xcassets */; };
+		160960B72D890E4E0086F495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160960B52D890E4E0086F495 /* LaunchScreen.storyboard */; };
+		160960C22D890E4E0086F495 /* GainZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160960C12D890E4E0086F495 /* GainZTests.swift */; };
+		160960CC2D890E4E0086F495 /* GainZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160960CB2D890E4E0086F495 /* GainZUITests.swift */; };
+		160960CE2D890E4E0086F495 /* GainZUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160960CD2D890E4E0086F495 /* GainZUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		16C996A82D76AA45004630F8 /* PBXContainerItemProxy */ = {
+		160960BE2D890E4E0086F495 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 16C9968A2D76AA40004630F8 /* Project object */;
+			containerPortal = 1609609C2D890E4B0086F495 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 16C996912D76AA40004630F8;
+			remoteGlobalIDString = 160960A32D890E4B0086F495;
 			remoteInfo = GainZ;
 		};
-		16C996B22D76AA45004630F8 /* PBXContainerItemProxy */ = {
+		160960C82D890E4E0086F495 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 16C9968A2D76AA40004630F8 /* Project object */;
+			containerPortal = 1609609C2D890E4B0086F495 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 16C996912D76AA40004630F8;
+			remoteGlobalIDString = 160960A32D890E4B0086F495;
 			remoteInfo = GainZ;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16C996922D76AA40004630F8 /* GainZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GainZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		16C996952D76AA40004630F8 /* GainZApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainZApp.swift; sourceTree = "<group>"; };
-		16C996972D76AA40004630F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		16C996992D76AA44004630F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		16C9969C2D76AA44004630F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		16C9969E2D76AA44004630F8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		16C996A12D76AA44004630F8 /* GainZ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GainZ.xcdatamodel; sourceTree = "<group>"; };
-		16C996A72D76AA45004630F8 /* GainZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GainZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		16C996AB2D76AA45004630F8 /* GainZTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainZTests.swift; sourceTree = "<group>"; };
-		16C996B12D76AA45004630F8 /* GainZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GainZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		16C996B52D76AA45004630F8 /* GainZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainZUITests.swift; sourceTree = "<group>"; };
-		16C996B72D76AA45004630F8 /* GainZUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainZUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		160960A42D890E4B0086F495 /* GainZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GainZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		160960A72D890E4B0086F495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		160960A92D890E4B0086F495 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		160960AB2D890E4B0086F495 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		160960AE2D890E4B0086F495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		160960B12D890E4B0086F495 /* GainZ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GainZ.xcdatamodel; sourceTree = "<group>"; };
+		160960B32D890E4E0086F495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		160960B62D890E4E0086F495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		160960B82D890E4E0086F495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160960BD2D890E4E0086F495 /* GainZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GainZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		160960C12D890E4E0086F495 /* GainZTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainZTests.swift; sourceTree = "<group>"; };
+		160960C72D890E4E0086F495 /* GainZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GainZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		160960CB2D890E4E0086F495 /* GainZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainZUITests.swift; sourceTree = "<group>"; };
+		160960CD2D890E4E0086F495 /* GainZUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GainZUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		16C9968F2D76AA40004630F8 /* Frameworks */ = {
+		160960A12D890E4B0086F495 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16C996A42D76AA45004630F8 /* Frameworks */ = {
+		160960BA2D890E4E0086F495 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16C996AE2D76AA45004630F8 /* Frameworks */ = {
+		160960C42D890E4E0086F495 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,60 +78,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16C996892D76AA3F004630F8 = {
+		1609609B2D890E4B0086F495 = {
 			isa = PBXGroup;
 			children = (
-				16C996942D76AA40004630F8 /* GainZ */,
-				16C996AA2D76AA45004630F8 /* GainZTests */,
-				16C996B42D76AA45004630F8 /* GainZUITests */,
-				16C996932D76AA40004630F8 /* Products */,
+				160960A62D890E4B0086F495 /* GainZ */,
+				160960C02D890E4E0086F495 /* GainZTests */,
+				160960CA2D890E4E0086F495 /* GainZUITests */,
+				160960A52D890E4B0086F495 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		16C996932D76AA40004630F8 /* Products */ = {
+		160960A52D890E4B0086F495 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16C996922D76AA40004630F8 /* GainZ.app */,
-				16C996A72D76AA45004630F8 /* GainZTests.xctest */,
-				16C996B12D76AA45004630F8 /* GainZUITests.xctest */,
+				160960A42D890E4B0086F495 /* GainZ.app */,
+				160960BD2D890E4E0086F495 /* GainZTests.xctest */,
+				160960C72D890E4E0086F495 /* GainZUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		16C996942D76AA40004630F8 /* GainZ */ = {
+		160960A62D890E4B0086F495 /* GainZ */ = {
 			isa = PBXGroup;
 			children = (
-				16C996952D76AA40004630F8 /* GainZApp.swift */,
-				16C996972D76AA40004630F8 /* ContentView.swift */,
-				16C996992D76AA44004630F8 /* Assets.xcassets */,
-				16C9969E2D76AA44004630F8 /* Persistence.swift */,
-				16C996A02D76AA44004630F8 /* GainZ.xcdatamodeld */,
-				16C9969B2D76AA44004630F8 /* Preview Content */,
+				160960A72D890E4B0086F495 /* AppDelegate.swift */,
+				160960A92D890E4B0086F495 /* SceneDelegate.swift */,
+				160960AB2D890E4B0086F495 /* ViewController.swift */,
+				160960AD2D890E4B0086F495 /* Main.storyboard */,
+				160960B32D890E4E0086F495 /* Assets.xcassets */,
+				160960B52D890E4E0086F495 /* LaunchScreen.storyboard */,
+				160960B82D890E4E0086F495 /* Info.plist */,
+				160960B02D890E4B0086F495 /* GainZ.xcdatamodeld */,
 			);
 			path = GainZ;
 			sourceTree = "<group>";
 		};
-		16C9969B2D76AA44004630F8 /* Preview Content */ = {
+		160960C02D890E4E0086F495 /* GainZTests */ = {
 			isa = PBXGroup;
 			children = (
-				16C9969C2D76AA44004630F8 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		16C996AA2D76AA45004630F8 /* GainZTests */ = {
-			isa = PBXGroup;
-			children = (
-				16C996AB2D76AA45004630F8 /* GainZTests.swift */,
+				160960C12D890E4E0086F495 /* GainZTests.swift */,
 			);
 			path = GainZTests;
 			sourceTree = "<group>";
 		};
-		16C996B42D76AA45004630F8 /* GainZUITests */ = {
+		160960CA2D890E4E0086F495 /* GainZUITests */ = {
 			isa = PBXGroup;
 			children = (
-				16C996B52D76AA45004630F8 /* GainZUITests.swift */,
-				16C996B72D76AA45004630F8 /* GainZUITestsLaunchTests.swift */,
+				160960CB2D890E4E0086F495 /* GainZUITests.swift */,
+				160960CD2D890E4E0086F495 /* GainZUITestsLaunchTests.swift */,
 			);
 			path = GainZUITests;
 			sourceTree = "<group>";
@@ -136,13 +133,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		16C996912D76AA40004630F8 /* GainZ */ = {
+		160960A32D890E4B0086F495 /* GainZ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16C996BB2D76AA45004630F8 /* Build configuration list for PBXNativeTarget "GainZ" */;
+			buildConfigurationList = 160960D12D890E4E0086F495 /* Build configuration list for PBXNativeTarget "GainZ" */;
 			buildPhases = (
-				16C9968E2D76AA40004630F8 /* Sources */,
-				16C9968F2D76AA40004630F8 /* Frameworks */,
-				16C996902D76AA40004630F8 /* Resources */,
+				160960A02D890E4B0086F495 /* Sources */,
+				160960A12D890E4B0086F495 /* Frameworks */,
+				160960A22D890E4B0086F495 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -150,69 +147,69 @@
 			);
 			name = GainZ;
 			productName = GainZ;
-			productReference = 16C996922D76AA40004630F8 /* GainZ.app */;
+			productReference = 160960A42D890E4B0086F495 /* GainZ.app */;
 			productType = "com.apple.product-type.application";
 		};
-		16C996A62D76AA45004630F8 /* GainZTests */ = {
+		160960BC2D890E4E0086F495 /* GainZTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16C996BE2D76AA45004630F8 /* Build configuration list for PBXNativeTarget "GainZTests" */;
+			buildConfigurationList = 160960D42D890E4E0086F495 /* Build configuration list for PBXNativeTarget "GainZTests" */;
 			buildPhases = (
-				16C996A32D76AA45004630F8 /* Sources */,
-				16C996A42D76AA45004630F8 /* Frameworks */,
-				16C996A52D76AA45004630F8 /* Resources */,
+				160960B92D890E4E0086F495 /* Sources */,
+				160960BA2D890E4E0086F495 /* Frameworks */,
+				160960BB2D890E4E0086F495 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				16C996A92D76AA45004630F8 /* PBXTargetDependency */,
+				160960BF2D890E4E0086F495 /* PBXTargetDependency */,
 			);
 			name = GainZTests;
 			productName = GainZTests;
-			productReference = 16C996A72D76AA45004630F8 /* GainZTests.xctest */;
+			productReference = 160960BD2D890E4E0086F495 /* GainZTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		16C996B02D76AA45004630F8 /* GainZUITests */ = {
+		160960C62D890E4E0086F495 /* GainZUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16C996C12D76AA45004630F8 /* Build configuration list for PBXNativeTarget "GainZUITests" */;
+			buildConfigurationList = 160960D72D890E4E0086F495 /* Build configuration list for PBXNativeTarget "GainZUITests" */;
 			buildPhases = (
-				16C996AD2D76AA45004630F8 /* Sources */,
-				16C996AE2D76AA45004630F8 /* Frameworks */,
-				16C996AF2D76AA45004630F8 /* Resources */,
+				160960C32D890E4E0086F495 /* Sources */,
+				160960C42D890E4E0086F495 /* Frameworks */,
+				160960C52D890E4E0086F495 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				16C996B32D76AA45004630F8 /* PBXTargetDependency */,
+				160960C92D890E4E0086F495 /* PBXTargetDependency */,
 			);
 			name = GainZUITests;
 			productName = GainZUITests;
-			productReference = 16C996B12D76AA45004630F8 /* GainZUITests.xctest */;
+			productReference = 160960C72D890E4E0086F495 /* GainZUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		16C9968A2D76AA40004630F8 /* Project object */ = {
+		1609609C2D890E4B0086F495 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					16C996912D76AA40004630F8 = {
+					160960A32D890E4B0086F495 = {
 						CreatedOnToolsVersion = 15.0;
 					};
-					16C996A62D76AA45004630F8 = {
+					160960BC2D890E4E0086F495 = {
 						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 16C996912D76AA40004630F8;
+						TestTargetID = 160960A32D890E4B0086F495;
 					};
-					16C996B02D76AA45004630F8 = {
+					160960C62D890E4E0086F495 = {
 						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 16C996912D76AA40004630F8;
+						TestTargetID = 160960A32D890E4B0086F495;
 					};
 				};
 			};
-			buildConfigurationList = 16C9968D2D76AA40004630F8 /* Build configuration list for PBXProject "GainZ" */;
+			buildConfigurationList = 1609609F2D890E4B0086F495 /* Build configuration list for PBXProject "GainZ" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,36 +217,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 16C996892D76AA3F004630F8;
-			productRefGroup = 16C996932D76AA40004630F8 /* Products */;
+			mainGroup = 1609609B2D890E4B0086F495;
+			productRefGroup = 160960A52D890E4B0086F495 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				16C996912D76AA40004630F8 /* GainZ */,
-				16C996A62D76AA45004630F8 /* GainZTests */,
-				16C996B02D76AA45004630F8 /* GainZUITests */,
+				160960A32D890E4B0086F495 /* GainZ */,
+				160960BC2D890E4E0086F495 /* GainZTests */,
+				160960C62D890E4E0086F495 /* GainZUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		16C996902D76AA40004630F8 /* Resources */ = {
+		160960A22D890E4B0086F495 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16C9969D2D76AA44004630F8 /* Preview Assets.xcassets in Resources */,
-				16C9969A2D76AA44004630F8 /* Assets.xcassets in Resources */,
+				160960B72D890E4E0086F495 /* LaunchScreen.storyboard in Resources */,
+				160960B42D890E4E0086F495 /* Assets.xcassets in Resources */,
+				160960AF2D890E4B0086F495 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16C996A52D76AA45004630F8 /* Resources */ = {
+		160960BB2D890E4E0086F495 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16C996AF2D76AA45004630F8 /* Resources */ = {
+		160960C52D890E4E0086F495 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,51 +257,70 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		16C9968E2D76AA40004630F8 /* Sources */ = {
+		160960A02D890E4B0086F495 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16C9969F2D76AA44004630F8 /* Persistence.swift in Sources */,
-				16C996982D76AA40004630F8 /* ContentView.swift in Sources */,
-				16C996962D76AA40004630F8 /* GainZApp.swift in Sources */,
-				16C996A22D76AA44004630F8 /* GainZ.xcdatamodeld in Sources */,
+				160960AC2D890E4B0086F495 /* ViewController.swift in Sources */,
+				160960A82D890E4B0086F495 /* AppDelegate.swift in Sources */,
+				160960AA2D890E4B0086F495 /* SceneDelegate.swift in Sources */,
+				160960B22D890E4B0086F495 /* GainZ.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16C996A32D76AA45004630F8 /* Sources */ = {
+		160960B92D890E4E0086F495 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16C996AC2D76AA45004630F8 /* GainZTests.swift in Sources */,
+				160960C22D890E4E0086F495 /* GainZTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16C996AD2D76AA45004630F8 /* Sources */ = {
+		160960C32D890E4E0086F495 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16C996B82D76AA45004630F8 /* GainZUITestsLaunchTests.swift in Sources */,
-				16C996B62D76AA45004630F8 /* GainZUITests.swift in Sources */,
+				160960CE2D890E4E0086F495 /* GainZUITestsLaunchTests.swift in Sources */,
+				160960CC2D890E4E0086F495 /* GainZUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		16C996A92D76AA45004630F8 /* PBXTargetDependency */ = {
+		160960BF2D890E4E0086F495 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 16C996912D76AA40004630F8 /* GainZ */;
-			targetProxy = 16C996A82D76AA45004630F8 /* PBXContainerItemProxy */;
+			target = 160960A32D890E4B0086F495 /* GainZ */;
+			targetProxy = 160960BE2D890E4E0086F495 /* PBXContainerItemProxy */;
 		};
-		16C996B32D76AA45004630F8 /* PBXTargetDependency */ = {
+		160960C92D890E4E0086F495 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 16C996912D76AA40004630F8 /* GainZ */;
-			targetProxy = 16C996B22D76AA45004630F8 /* PBXContainerItemProxy */;
+			target = 160960A32D890E4B0086F495 /* GainZ */;
+			targetProxy = 160960C82D890E4E0086F495 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		160960AD2D890E4B0086F495 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				160960AE2D890E4B0086F495 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		160960B52D890E4E0086F495 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				160960B62D890E4E0086F495 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		16C996B92D76AA45004630F8 /* Debug */ = {
+		160960CF2D890E4E0086F495 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -366,7 +383,7 @@
 			};
 			name = Debug;
 		};
-		16C996BA2D76AA45004630F8 /* Release */ = {
+		160960D02D890E4E0086F495 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -422,28 +439,28 @@
 			};
 			name = Release;
 		};
-		16C996BC2D76AA45004630F8 /* Debug */ = {
+		160960D22D890E4E0086F495 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GainZ/Preview Content\"";
 				DEVELOPMENT_TEAM = 9S6CR784H8;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = GainZ/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = project.GainZ;
+				PRODUCT_BUNDLE_IDENTIFIER = TeamGainz.GainZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -451,28 +468,28 @@
 			};
 			name = Debug;
 		};
-		16C996BD2D76AA45004630F8 /* Release */ = {
+		160960D32D890E4E0086F495 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GainZ/Preview Content\"";
 				DEVELOPMENT_TEAM = 9S6CR784H8;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = GainZ/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = project.GainZ;
+				PRODUCT_BUNDLE_IDENTIFIER = TeamGainz.GainZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -480,7 +497,7 @@
 			};
 			name = Release;
 		};
-		16C996BF2D76AA45004630F8 /* Debug */ = {
+		160960D52D890E4E0086F495 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -491,7 +508,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = project.GainZTests;
+				PRODUCT_BUNDLE_IDENTIFIER = TeamGainz.GainZTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -500,7 +517,7 @@
 			};
 			name = Debug;
 		};
-		16C996C02D76AA45004630F8 /* Release */ = {
+		160960D62D890E4E0086F495 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -511,7 +528,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = project.GainZTests;
+				PRODUCT_BUNDLE_IDENTIFIER = TeamGainz.GainZTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -520,7 +537,7 @@
 			};
 			name = Release;
 		};
-		16C996C22D76AA45004630F8 /* Debug */ = {
+		160960D82D890E4E0086F495 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -529,7 +546,7 @@
 				DEVELOPMENT_TEAM = 9S6CR784H8;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = project.GainZUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = TeamGainz.GainZUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -538,7 +555,7 @@
 			};
 			name = Debug;
 		};
-		16C996C32D76AA45004630F8 /* Release */ = {
+		160960D92D890E4E0086F495 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -547,7 +564,7 @@
 				DEVELOPMENT_TEAM = 9S6CR784H8;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = project.GainZUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = TeamGainz.GainZUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -559,38 +576,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16C9968D2D76AA40004630F8 /* Build configuration list for PBXProject "GainZ" */ = {
+		1609609F2D890E4B0086F495 /* Build configuration list for PBXProject "GainZ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16C996B92D76AA45004630F8 /* Debug */,
-				16C996BA2D76AA45004630F8 /* Release */,
+				160960CF2D890E4E0086F495 /* Debug */,
+				160960D02D890E4E0086F495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16C996BB2D76AA45004630F8 /* Build configuration list for PBXNativeTarget "GainZ" */ = {
+		160960D12D890E4E0086F495 /* Build configuration list for PBXNativeTarget "GainZ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16C996BC2D76AA45004630F8 /* Debug */,
-				16C996BD2D76AA45004630F8 /* Release */,
+				160960D22D890E4E0086F495 /* Debug */,
+				160960D32D890E4E0086F495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16C996BE2D76AA45004630F8 /* Build configuration list for PBXNativeTarget "GainZTests" */ = {
+		160960D42D890E4E0086F495 /* Build configuration list for PBXNativeTarget "GainZTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16C996BF2D76AA45004630F8 /* Debug */,
-				16C996C02D76AA45004630F8 /* Release */,
+				160960D52D890E4E0086F495 /* Debug */,
+				160960D62D890E4E0086F495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16C996C12D76AA45004630F8 /* Build configuration list for PBXNativeTarget "GainZUITests" */ = {
+		160960D72D890E4E0086F495 /* Build configuration list for PBXNativeTarget "GainZUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16C996C22D76AA45004630F8 /* Debug */,
-				16C996C32D76AA45004630F8 /* Release */,
+				160960D82D890E4E0086F495 /* Debug */,
+				160960D92D890E4E0086F495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -598,17 +615,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		16C996A02D76AA44004630F8 /* GainZ.xcdatamodeld */ = {
+		160960B02D890E4B0086F495 /* GainZ.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				16C996A12D76AA44004630F8 /* GainZ.xcdatamodel */,
+				160960B12D890E4B0086F495 /* GainZ.xcdatamodel */,
 			);
-			currentVersion = 16C996A12D76AA44004630F8 /* GainZ.xcdatamodel */;
+			currentVersion = 160960B12D890E4B0086F495 /* GainZ.xcdatamodel */;
 			path = GainZ.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 16C9968A2D76AA40004630F8 /* Project object */;
+	rootObject = 1609609C2D890E4B0086F495 /* Project object */;
 }
