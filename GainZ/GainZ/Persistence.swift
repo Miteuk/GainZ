@@ -1,8 +1,8 @@
 //
 //  Persistence.swift
-//  GainZ
+//  Gainz
 //
-//  Created by Tim Kue on 3/3/25.
+//  Created by Alex Nguyen on 5/8/25.
 //
 
 import CoreData
@@ -10,7 +10,8 @@ import CoreData
 struct PersistenceController {
     static let shared = PersistenceController()
 
-    static var preview: PersistenceController = {
+    @MainActor
+    static let preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
         for _ in 0..<10 {
@@ -31,7 +32,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "GainZ")
+        container = NSPersistentContainer(name: "Gainz")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }

@@ -1,14 +1,14 @@
 //
-//  GainZApp.swift
-//  GainZ
+//  GainzApp.swift
+//  Gainz
 //
-//  Created by Tim Kue on 3/3/25.
+//  Created by Alex Nguyen on 5/8/25.
 //
 
 import SwiftUI
 
 @main
-struct GainZApp: App {
+struct GainzApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
