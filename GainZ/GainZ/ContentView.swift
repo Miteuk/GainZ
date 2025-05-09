@@ -63,6 +63,19 @@ struct ContentView: View {
         }
     }
 
+    private func addItem() {
+        withAnimation {
+            let newItem = Item(context: viewContext)
+            newItem.timestamp = Date()
+
+            do {
+                try viewContext.save()
+            } catch {
+                let nsError = error as NSError
+                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+            }
+        }
+    }
 
     private func deleteItems(offsets: IndexSet) {
         withAnimation {
